@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Praise&family=Rampart+One&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+    <h3 id="pl_1_name"></h3><span id="pl_1_score"></span>
+    <h3 id="pl_2_name"></h3><span id="pl_2_score"></span>
+    <center>
+        <div class="container">
+        <h1>Game</h1><br><br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div">
+            <h3>Player 1 login for the game.</h3><br>
+            <label id="lable">User name:</label><br>
+            <input placeholder="Enter the name here" class="form-control" id="player_1"><br>
+        </div><br><br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div">
+            <h3>Player 2 login for the game.</h3><br>
+            <label id="lable">User name:</label><br>
+            <input placeholder="Enter the name here" class="form-control" id="player_2"><br>
+        </div><br><br>
+        <button id="lg_btn" class="btn btn-primary" onclick="login()">Login</button>
+        </div>
+    </center>
+</body>
+
+<script src="main.js"></script>
+
+</html>
